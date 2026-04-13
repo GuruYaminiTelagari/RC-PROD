@@ -13,10 +13,10 @@ Train/test split: 80/20 (stratified)
 
                    precision    recall  f1-score   support
 
-Automation Update     1.0000    1.0000    1.0000         7
-            Fault     1.0000    0.5000    0.6667         2
-      Reliability     0.9524    1.0000    0.9756        20
+Automation Update     1.0000    1.0000    1.0000         6
+            Fault     1.0000    1.0000    1.0000         2
+      Reliability     1.0000    1.0000    1.0000        21
 
-         accuracy                         0.9655        29
-        macro avg     0.9841    0.8333    0.8808        29
-     weighted avg     0.9672    0.9655    0.9602        29
+         accuracy                         1.0000        29
+        macro avg     1.0000    1.0000    1.0000        29
+     weighted avg     1.0000    1.0000    1.0000        29
