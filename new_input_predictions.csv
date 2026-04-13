@@ -1,0 +1,5 @@
+Suite Name,Comments,Failure Exception,Predicted Review Status
+Reports - Reportage,Passed locally,No exception in extract (passed/comment based),Reliability
+Project - General,PROD issue in line 6280,RuntimeException: continue button success condition false,Reliability
+Interface - CSVus2,Relates to AUR,AssertionError: re-exported payment status/message mismatch,Automation Update
+Project - Enable Owner Billing (Project General > Project Setup),Deffered fault,NoSuchElement: reports search input not found,Fault
