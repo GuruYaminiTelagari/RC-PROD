@@ -141,3 +141,92 @@ c8822977,Grid,Reports - Reportage,Reliability,Not present in rerun failures,No e
 c8994592,Grid,Interface - eBIS,Fault,Ticket raised,AssertionError: database not updated correctly
 c9398505,Grid,Invoice - System Generated Invoice Numbers,Reliability,Passed locally,RuntimeException: owner state option not clickable
 c948627,Grid,Invoice - Enter Invoice,Reliability,Passed locally,No exception in extract (passed/comment based)
+c30000680,Grid,KITTEN Self-service document templates,Fixed,ICPM-72573,AssertionError: IDCS editor template HTML not as expected
+c29996023,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell vertical alignment updated beyond target cell
+c29996022,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell vertical alignment updated beyond target cell
+c29996030,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell vertical alignment updated beyond target cell
+c29996027,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell horizontal alignment updated beyond target cell
+c29996028,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell horizontal alignment updated beyond target cell
+c29996029,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell horizontal alignment updated beyond target cell
+c30000681,Grid,KITTEN Self-service document templates,Fixed,ICPM-72573,AssertionError: IDCS editor template HTML not as expected
+c29996031,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell vertical alignment updated beyond target cell
+c30000682,Grid,KITTEN Self-service document templates,Fixed,ICPM-72573,AssertionError: IDCS editor template HTML not as expected
+c29996021,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell vertical alignment updated beyond target cell
+c29868427,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Expected template was not filtered
+c19926499,Grid,KITTEN Self-service document templates,Fixed,,NoSuchElementException: expected editor text node not found
+c29996013,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: table not as expected after inserting rows
+c30093696,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: effective retention rate variable formatting incorrect
+c29996026,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell horizontal alignment updated beyond target cell
+c29996032,Grid,KITTEN Self-service document templates,Fixed,,AssertionError: Cell vertical alignment updated beyond target cell
+c879898,Grid,Translations - Canada,Fault,traceback saving edit user,AttributeError: DisplayDate has no attribute french_translation
+c1119122,Grid,Contract - Usage Fees,Reliability,passed locally,StaleElementReferenceException: stale element not found
+c29647310,Grid,Enterprise Disbursement Page,Reliability,passed locally,StaleElementReferenceException: stale element not found
+c29759993,Grid,Project - Enable Owner Billing (Project General > Project Setup),Reliability,passed locally,AssertionError: Disable Owner Billing link is present
+c29988497,Grid,Reports - Reportage,Reliability,passed locally,UncheckedExecutionException: IOException stream closed
+c29986480,Grid,DocuSign,Automation Update,test automation needs update,AssertionError: signed UCLW document content incorrect
+c879904,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c879894,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c879903,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c879901,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c879902,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c879900,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c879899,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c20904245,Grid,Administration-Messages,Fault,,RuntimeException: Edit e-Sign PIN link not clickable
+c20904268,Grid,Administration-Messages,Fault,,RuntimeException: Edit e-Sign PIN link not clickable
+c472573,Grid,Administration-Messages,Fault,,RuntimeException: Edit e-Sign PIN link not clickable
+c2505467,Grid,Compliance - Legal Document,Fault,,NoSuchElementException: report-name input not found
+c30087463,Grid,Reports - Reportage,Automation Update,,NoSuchElementException: createReportSelectAll_programs input not found
+c30095456,Grid,Reports - Reportage,Automation Update,,NoSuchElementException: createReportSelectAll_programs input not found
+c29647235,Grid,Enterprise Disbursement Page,Reliability,passed locally,No exception in extract (passed/comment based)
+c8370199,Grid,Draw - Draw,Automation Update,,AssertionError: toast message indicating draw reopened not present
+c29986467,Grid,DocuSign,Fixed,one variable was pushed to next page,AssertionError: signed subs UCLW content on first draw incorrect
+c30096980,Grid,Reports - Reportage,Automation Update,,RuntimeException: select all programs control not clickable
+c879897,Grid,Translations - Canada,Fault,,AttributeError: DisplayDate has no attribute french_translation
+c18205514,Grid,Reports - Reportage,Automation Update,,AssertionError: Empty report should be generated
+c29986466,Grid,DocuSign,Automation Update,wrong document returned during execution,AssertionError: signed subs CLW content on final draw incorrect
+c15724980,Grid,Administration-Messages,Fault,,RuntimeException: notification link not clickable in Messages
+c27276649,Grid,Documents,Fixed,AUR fixed,AssertionError: unsigned document should get downloaded
+c1156161,Grid,Contract - Usage Fees,Reliability,feebill fees ended up showing after waiting long enough,AssertionError: FeeBill refund/payment values not as expected
+c29995857,Grid,KITTEN Self-service document templates,Automation Update,merge issue due to kitten table improvements,AssertionError: blank table in editor not present
+c209985,Grid,Administration-Messages,Fault,ICPM-72571,AssertionError: status message is incorrect
+c29996019,Grid,KITTEN Self-service document templates,Automation Update,merge issue due to kitten table improvements,AssertionError: IDCS editor cells not displayed as expected
+c12855472,Grid,Administration-Messages,Reliability,works when hour is 01-11 which makes testcases flaky. fixed by updated to 01-12 as expected,AssertionError: Date text is incorrect
+c27276647,Grid,Documents,Fixed,AUR fixed,AssertionError: unsigned document download text mismatch
+c20332363,Grid,Documents,Fixed,AUR fixed,AssertionError: signed serial approvers invoice not displayed
+c29996034,Grid,KITTEN Self-service document templates,Automation Update,merge issue due to kitten table improvements,AssertionError: cell update affected other cells background
+c29996033,Grid,KITTEN Self-service document templates,Automation Update,merge issue due to kitten table improvements,AssertionError: table structure incorrect after border update
+c29986465,Grid,DocuSign,Fixed,one variable was pushed to next page,AssertionError: signed subs CLW content on first draw incorrect
+c4884125,Grid,Compliance - Legal Document,Fault,"clicking continue button on CreateReport page was happening to fast back to back, and not letting the page settle",NoSuchElementException: report-name input not found
+c29587349,Grid,Administration - System (Rename: Account Setup),Fault,,AttributeError: DisplayDate has no attribute french_translation
+c1713736,Grid,Interface - Standard Web Services,Reliability,Passed Locally,NoSuchElementException: report-name input not found
+c29996012,Grid,KITTEN Self-service document templates,Reliability,Fails in Prod as well,AssertionError: IDCS editor table not as expected after insert columns
+c30029784,Grid,Organization - Textura Payment Accelerator (TPA),Fault,,AssertionError: Estimated Early Payment amount is incorrect
+c7349961,Grid,Internal - Pronto Signature System (Rename?),Fault,,AttributeError: DisplayDate has no attribute french_translation
+c660661,Grid,Invoice - Tax,Reliability,Passed locally,StaleElementReferenceException: stale element not found in current frame
+c13740722,Grid,Organization - Project Supplier Tracking,Fault,,AssertionError: actual report mismatch with expected report
+c20222880,Grid,Organization - Project Supplier Tracking,Fault,,TimeoutException while locating element for classification tracking
+c29995861,Grid,KITTEN Self-service document templates,Reliability,Passed Locally,No exception in extract (passed/comment based)
+c29484705,Grid,Project - Project Fees,Automation Update,AUR Raised,AssertionError: payment records present unexpectedly
+c7351619,Grid,Internal - Pronto Signature System (Rename?),Fault,,AssertionError: validation error should not be displayed
+c29595608,Grid,Interface - eBIS,Reliability,Passed Locally,NoSuchElementException: checkbox in enterprise disbursement not found
+c2333847,Grid,Project - CPM Fee Sales Tax calculation (CPM-10077),Fault,,AssertionError: ibis response different than expected
+c7349969,Grid,Internal - Pronto Signature System (Rename?),Fault,,AssertionError: profile update status message incorrect
+c30095423,Grid,KITTEN Self-service document templates,Fixed,ICPM-72573,AssertionError: editor options combination not correctly applied
+c30095425,Grid,KITTEN Self-service document templates,Fixed,ICPM-72573,AssertionError: editor options combination not correctly applied
+c30091734,External,Organization - Textura Payment Accelerator (TPA),Automation Update,,AssertionError: TPA accelerated invoices message missing
+c8156048,DTC,Internal - FeeBill,Reliability,passed on dtc rerun,RuntimeException: Confirm button was not clickable
+c11925246,DTC,Internal - FeeBill,Reliability,passed on dtc rerun,NoSuchElementException: Accounts Receivables report download link not found
+c29437393,DTC,Interface - CSVus2,Reliability,passed on dtc rerun,AssertionError: Exported records page types not correct
+c29603047,DTC,Internal - FeeBill,Fixed,,AssertionError: TPA meterable report mismatch
+c29603049,DTC,Internal - FeeBill,Fixed,,AssertionError: TPA meterable report mismatch
+c2889831,DTC,Internal - FeeBill,Reliability,passed on dtc rerun,RuntimeException: Confirm button was not clickable
+c29988497,Grid,Reports - Reportage,Reliability,Passed locally,UncheckedExecutionException: IOException stream closed
+c29647310,Grid,Enterprise Disbursement Page,Reliability,Passed Locally,StaleElementReferenceException: stale element not found
+c30049539,Grid,Internal - FeeBill,Reliability,Fails in Prod as well,NoSuchElementException: project_name cell not found in fee bases table
+c7762444,Grid,Compliance - Legal Document,Reliability,Passed Locally,NoSuchElementException: xls output radio input not found
+c20256931,Grid,Organization - Manage Owner Funding,Reliability,Fails from Prod as well,RuntimeException: payment number cell not clickable
+c14288302,Grid,Administration - System (Rename: Account Setup),Reliability,Fails in Prod as well,AssertionError: SR drawer project default selection incorrect
+c29825771,Grid,Draw - Close Draw (move to Draw - Draw),Reliability,Passed locally,NoSuchElementException: rejectedInvoiceWarning not found
+c279039,Grid,Compliance - Legal Document,Reliability,Passed Locally,NoSuchElementException: report-name input not found
+c1713736,Grid,Interface - Standard Web Services,Reliability,Passed Locally,NoSuchElementException: report-name input not found
+c29437529,Grid,KITTEN Self-service document templates,Reliability,passed locally,AssertionError: document not saved with expected notary variables

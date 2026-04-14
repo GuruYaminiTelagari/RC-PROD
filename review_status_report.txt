@@ -2,21 +2,23 @@ Review Status Classification Report
 ========================================
 
 Input data: ml_classification_input_updated.csv
-Rows: 142
+Rows: 231
 Label distribution:
 Review Status
-Reliability          101
-Automation Update     32
-Fault                  9
+Reliability          127
+Automation Update     45
+Fault                 33
+Fixed                 26
 
 Train/test split: 80/20 (stratified)
 
                    precision    recall  f1-score   support
 
-Automation Update     1.0000    1.0000    1.0000         6
-            Fault     1.0000    1.0000    1.0000         2
-      Reliability     1.0000    1.0000    1.0000        21
+Automation Update     0.6667    0.7500    0.7059         8
+            Fault     0.8889    0.8000    0.8421        10
+            Fixed     0.8000    1.0000    0.8889         8
+      Reliability     1.0000    0.9048    0.9500        21
 
-         accuracy                         1.0000        29
-        macro avg     1.0000    1.0000    1.0000        29
-     weighted avg     1.0000    1.0000    1.0000        29
+         accuracy                         0.8723        47
+        macro avg     0.8389    0.8637    0.8467        47
+     weighted avg     0.8856    0.8723    0.8751        47
