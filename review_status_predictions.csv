@@ -1,143 +1,23 @@
-Test Case Id,Test Case Type,Suite Name,Review Status,Comments,Failure Exception,Predicted Review Status
-c10707953,Grid,Reports - Reportage,Reliability,Prod failure at ER1,AssertionError: PM column value mismatch in report,Reliability
-c10936497,Grid,Internationalization - UK Workflow,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c12333036,Grid,Integration Home Page (Interfaces),Reliability,Passed locally,AssertionError: View_Import_File link missing,Reliability
-c12964954,Grid,Project - General,Reliability,PROD issue in line 6280,RuntimeException: continue button success condition false,Reliability
-c12988737,Grid,Reports - Reportage,Reliability,Passed locally,AssertionError: report output not as expected,Reliability
-c14163519,Grid,Integration Home Page (Interfaces),Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c14288302,Grid,Administration - System (Rename: Account Setup),Reliability,Verified manually,AssertionError: SR drawer default project selection incorrect,Reliability
-c1436565,Grid,Contract - Retention - Contract Level Retention,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c1483052,Grid,Interface - SAP (JSON),Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c1483394,Grid,Interface - SAP (JSON),Reliability,Passed locally,NoSuchElement: accounting interface input not found,Reliability
-c1543844,Grid,Contract - Usage Fees,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c15724676,Grid,Enterprise Disbursement Page,Reliability,Passed locally,AssertionError: GC invoice disbursement validation failed,Reliability
-c16539760,Grid,UI/UX refresh 2017-2020,Reliability,Passed locally,AssertionError: expected record not displayed,Reliability
-c1713431,Grid,Interface - Standard Web Services,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c17286920,Grid,Interface - CSVus2,Automation Update,Relates to AUR,AssertionError: re-exported payment status/message mismatch,Automation Update
-c17286921,Grid,Interface - CSVus2,Reliability,Passed locally,AssertionError: exportheader expected fail/Connection error mismatch,Reliability
-c17537296,Grid,Contract - Usage Fees,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c1755861,Grid,Interface - Standard Web Services,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c1755877,Grid,Interface - Standard Web Services,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c17768618,Grid,Project - Enable Owner Billing (Project General > Project Setup),Fault,Deffered fault,NoSuchElement: reports search input not found,Fault
-c18339884,Grid,KITTEN Self-service document templates,Automation Update,Opened AUR,AssertionError: PDF preview values incorrect,Automation Update
-c18826424,Grid,Organization - Project Supplier Tracking,Fault,Fault already raised in previous run,AssertionError: record should not be available in DB,Fault
-c19082619,Grid,KITTEN Self-service document templates,Reliability,Passed locally,RuntimeException: document name cell not clickable,Reliability
-c19217708,Grid,Organization - Manage Owner Funding,Reliability,Verified manually,AssertionError: expected project missing in dropdown,Reliability
-c195371,Grid,Invoice - Unit Pricing,Reliability,Passed locally,RuntimeException: continue button success condition false,Reliability
-c19963023,Grid,Interface - Standard Web Services,Reliability,Passed locally,AssertionError: status line not as expected,Reliability
-c20222880,Grid,Organization - Project Supplier Tracking,Reliability,Passed locally,AssertionError: review requested classification link missing,Reliability
-c20333208,Grid,Administration - System (Rename: Account Setup),Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c20333346,Grid,KITTEN Self-service document templates,Fault,,Fault linked via Jira ICPM-71340,Fault
-c224569,Grid,Invoice - Enter Invoice,Reliability,rod failure at ER1,AssertionError: subcontractor billings checkbox state mismatch,Reliability
-c2265372,Grid,Project - CPM Fee Sales Tax calculation (CPM-10077),Fault,relates to fault,Fault linked via Jira ICPM-71338,Fault
-c2372058,Grid,Change Orders - Potential Change Orders (Variations),Reliability,Passed locally,AssertionError: expected change-order setting not present,Reliability
-c2575,Grid,Invoice - Enter Invoice,Reliability,PROD issue in line 229,RuntimeException: continue button success condition false,Reliability
-c279127,Grid,Draw - Draw,Reliability,Same PROD failure at ER1-0,NoSuchElementException: duplicate email message row not found,Reliability
-c2838968,Grid,Reports - Reportage,Automation Update,Opened AUR,NoSuchElement: secondary_orgs input not found,Automation Update
-c28675335,Grid,Project - General,Reliability,Same PROD failure at ER2-5,AssertionError: response message not as expected,Reliability
-c28675336,Grid,Project - General,Reliability,Passed locally,AssertionError: status line should be 200 OK,Reliability
-c29459381,Grid,Administration-Messages,Reliability,Passed locally,NoSuchElement: tpm-fees-selections input not found,Reliability
-c29476650,Grid,Project - Project Fees,Reliability,Passed locally,NoSuchElement: tpm-fees-selections input not found,Reliability
-c29476725,Grid,Project - General,Reliability,Passed locally,AssertionError: last modified text mismatch,Reliability
-c29476732,Grid,Organization - Textura Payment Accelerator (TPA),Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c29482066,Grid,Interface - CSVus2,Reliability,Passed locally,AssertionError: status line not as expected,Reliability
-c29484414,Grid,Project - Project Fees,Reliability,Fails in Prod as well,NoSuchElement: tpm-fees-selections input not found,Reliability
-c29484693,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c29484702,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c29484705,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c29485709,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c29487307,Grid,Interface - Standard Web Services,Reliability,Common failure (Failing at selenium().CSVus2.csvus2Page.ssoLogin();),RuntimeException: common SSO login failure,Reliability
-c29487309,Grid,Interface - Standard Web Services,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c29495616,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c29495728,Grid,Organization - Textura Payment Accelerator (TPA),Reliability,Same PROD failure at ER1,AssertionError: PROD failure at ER1,Reliability
-c29497332,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c29550860,Grid,Invoice - System Generated Invoice Numbers,Reliability,Passed locally,RuntimeException: failed to hover draw header link,Reliability
-c29556097,Grid,Project - Document Archive,Reliability,Passed locally,StaleElementReferenceException: stale element not found,Reliability
-c29603236,Grid,Project - General,Reliability,Passed locally,RuntimeException: owner state option not clickable,Reliability
-c29745790,Grid,Administration-Messages,Reliability,Passed locally,StaleElementReferenceException: stale element not found,Reliability
-c29747854,Grid,Internal - PDQBach,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c29761487,Grid,Project - Enable Owner Billing (Project General > Project Setup),Reliability,Fails in Prod as well,AssertionError: reopen modal details incorrect,Reliability
-c29815901,Grid,Organization - Textura Payment Accelerator (TPA),Reliability,Same PROD failure at ER1,AssertionError: PROD failure at ER1,Reliability
-c29820583,Grid,Contract - Usage Fees,Reliability,Same PROD failure at line 9648,AssertionError: payment record mismatch (prod line 9648),Reliability
-c29882608,Grid,Organization - Project Supplier Tracking,Automation Update,"original steps were commented out, case passed after updates",Automation update (steps revised),Automation Update
-c29888752,Grid,Disbursement,Reliability,Passed locally,RuntimeException: disburse button not clickable,Reliability
-c29889908,Grid,Disbursement,Reliability,Passed locally,NoSuchElement: rollbackError element not found,Reliability
-c29892713,Grid,Project - User roles,Reliability,PROD issue in line 7001,RuntimeException: continue button success condition false,Reliability
-c29893040,Grid,Project - User roles,Reliability,Passed locally,RuntimeException: setup project funding link not clickable,Reliability
-c29903750,Grid,Disbursements - Bank Reconciliation files,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c29927609,Grid,Disbursements - Bank Reconciliation files,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c29939799,Grid,Internal - PDQBach,Reliability,Passed locally,AssertionError: Email Sent column value incorrect,Reliability
-c29986340,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c29986466,Grid,DocuSign,Reliability,Same PROD failure at ER1,AssertionError: PROD failure at ER1,Reliability
-c29986480,Grid,DocuSign,Reliability,Same PROD failure at ER1,AssertionError: PROD failure at ER1,Reliability
-c29995859,Grid,KITTEN Self-service document templates,Reliability,Passed locally,NullPointerException: latest downloaded file is null,Reliability
-c29995861,Grid,KITTEN Self-service document templates,Reliability,Passed locally,NullPointerException: latest downloaded file is null,Reliability
-c29996577,Grid,Contract - Discounts,Reliability,Passed locally,RuntimeException: add project continue button not clickable,Reliability
-c29999948,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30000028,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30000029,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30000092,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30000104,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30039811,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30039812,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30039813,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30040069,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30040072,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30040073,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30040074,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30040075,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30040108,Grid,Reports - Reportage,Reliability,Passed locally,RuntimeException: give feedback button not clickable,Reliability
-c30040146,Grid,Reports - Reportage,Reliability,Passed locally,AssertionError: expected two rows not listed,Reliability
-c30042003,Grid,Reports - Reportage,Reliability,Passed locally,NoSuchElementException: report Name column header not found,Reliability
-c30042124,Grid,Reports - Reportage,Reliability,Passed locally,AssertionError: rejected invoice status mismatch,Reliability
-c30045834,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30045835,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30045836,Grid,Project - Project Fees,Automation Update,,Automation update (no failure exception),Automation Update
-c30045849,Grid,Project - Project Fees,Fault,,NumberFormatException: invalid numeric parse in project fees,Fault
-c30047388,Grid,Reports - Reportage,Reliability,Passed locally,AssertionError: report column headers not separated by /,Reliability
-c30047390,Grid,Reports - Reportage,Fault,Possible AUR ticket raised,RuntimeException: give feedback button not clickable,Fault
-c30047423,Grid,Reports - Reportage,Reliability,Passed locally,AssertionError: prompt search should return two records,Reliability
-c30049537,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30049538,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30055529,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30055530,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30055531,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30055532,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30055533,Grid,Project - Project Fees,Reliability,Verified manually,NoSuchElement: Enterprise Pricing tab not found,Reliability
-c30055534,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30059645,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30059649,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30059650,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30059703,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30059706,Grid,Project - Project Fees,Automation Update,inevitable update due to new functionality on new cases cross feature,Automation update (no failure exception),Automation Update
-c30075303,Grid,Administration - System (Rename: Account Setup),Reliability,Passed locally,AssertionError: training info URL mismatch,Reliability
-c30075366,Grid,KITTEN Self-service document templates,Automation Update,Opened AUR,AssertionError: UCLW content with special chars mismatch,Automation Update
-c30077352,Grid,Reports - Reportage,Fault,Raised a ticket,AssertionError: Updated On from-date default incorrect,Fault
-c303149,Grid,Interface - JDE Enterprise V3,Fault,https://gbujira.oraclecorp.com/browse/ICPM-71218,Fault linked via Jira ICPM-71218,Fault
-c342972,Grid,Administration-Messages,Reliability,Same PROD failure at E,InvalidSelectorException: malformed xpath in duplicate message check,Reliability
-c4591819,Grid,Draw - Draw,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c515128,Grid,Interface - JDE E1 MULTI,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c515241,Grid,Interface - CMIC,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c58492,Grid,Contract - General,Reliability,PROD issue in line 6646,RuntimeException: continue button success condition false,Reliability
-c608701,Grid,z.Interface - Maxwell (Obsolete),Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c649796,Grid,Interface - CMIC v4.4,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c649886,Grid,Interface - CMIC v4.4,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c663501,Grid,Contract - Retention - Contract Level Retention,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c670122,Grid,Interface - JD Edwards World v3,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c670125,Grid,Interface - JD Edwards World v3,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c670176,Grid,Interface - JD Edwards World v3,Reliability,Paased locally,No exception in extract (passed/comment based),Reliability
-c6997815,Grid,Change Orders - Potential Change Orders Alternate Workflow (Assign),Reliability,PROD issue in line 5182,RuntimeException: continue button success condition false,Reliability
-c6997817,Grid,Change Orders - Potential Change Orders Alternate Workflow (Assign),Reliability,PROD issue in line 5231,RuntimeException: continue button success condition false,Reliability
-c714659,Grid,Interface - Spectrum Standard,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c714676,Grid,Interface - Spectrum Standard,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c714680,Grid,Interface - Spectrum Standard,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c727464,Grid,Interface - JD Edwards World v4,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c727641,Grid,Interface - JD Edwards World v4,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c727649,Grid,Interface - JD Edwards World v4,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c727664,Grid,Interface - JD Edwards World v4,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
-c837821,Grid,Contract - Usage Fees,Reliability,Same PROD failure at line 4117,NoSuchElementException: FAILED TO GET KO DATA VALUE,Reliability
-c8650013,Grid,Compliance - Manage Lien Waivers,Reliability,Failing in RC and Prod at ER2-1,AssertionError: payments holds applied message not displayed,Reliability
-c8822977,Grid,Reports - Reportage,Reliability,Not present in rerun failures,No exception in rerun failure extract,Reliability
-c8994592,Grid,Interface - eBIS,Fault,Ticket raised,AssertionError: database not updated correctly,Fault
-c9398505,Grid,Invoice - System Generated Invoice Numbers,Reliability,Passed locally,RuntimeException: owner state option not clickable,Reliability
-c948627,Grid,Invoice - Enter Invoice,Reliability,Passed locally,No exception in extract (passed/comment based),Reliability
+Test Case Id,Test Case Type,Suite Name,Comments,Failure Exception,Predicted Review Status
+c20256949,External,Reports - Reportage,,RuntimeException: multiselect options not clickable in report,Automation Update
+c60752,DTC,Internal - PDQBach,possible prod issue,AssertionError: EFT file does not contain expected content,Reliability
+c2890078,DTC,Internal - FeeBill,prod failure,NoSuchElementException: Fees/Adjustments tab element not found,Reliability
+c29882741,DTC,Organization - Textura Payment Accelerator (TPA),prod failure,RuntimeException: generate_all_receivable_reports did not complete,Reliability
+c2889775,DTC,Internal - FeeBill,passed on dtc rerun,RuntimeException: Confirm button was not clickable,Reliability
+c29996012,Grid,KITTEN Self-service document templates,,AssertionError: IDCS editor table not as expected after insert columns,Reliability
+c30077268,Grid,Compliance - Lien Waiver,Fails in Proda as well,StaleElementReferenceException: stale element not found in current frame,Reliability
+c29476725,Grid,Project - General,Passed locally,AssertionError: Last modified text in drawer is not as expected,Reliability
+c29704023,Grid,Reports - Reportage,ICPM-72652,AssertionError: required report not present in reports list,Automation Update
+c30091059,Grid,Reports - Reportage,ICPM-72653,AssertionError: Last Run Date incorrect for duplicated report,Fault
+c30029784,Grid,Organization - Textura Payment Accelerator (TPA),ICPM-72586,AssertionError: Estimated Early Payment amount is incorrect,Fault
+c16740777,Grid,Draw - Track Draw Deadlines,passed locally,NoSuchElementException: generated report download button not found,Reliability
+c29589755,Grid,KITTEN Self-service document templates,"passed locally, tar took too long to upload",NoSuchElementException: Assign To Org row/input not found,Reliability
+c30093314,Grid,KITTEN Self-service document templates,"passed locally, tar took too long to upload",NoSuchElementException: Assign To Org row/input not found,Reliability
+c29986466,Grid,DocuSign,due to change in editor while copying curated template,AssertionError: signed subs CLW content on final draw incorrect,Fixed
+c29986480,Grid,DocuSign,due to change in editor while copying curated template,AssertionError: signed UCLW document content incorrect,Automation Update
+c29996019,Grid,KITTEN Self-service document templates,due to change in editor table,AssertionError: IDCS editor cells not displayed as expected,Automation Update
+c27276647,Grid,Documents,passed locally,AssertionError: unsigned document download text mismatch,Fixed
+c29996024,Grid,KITTEN Self-service document templates,"passed locally, merging cells need more time",RuntimeException: merge cells toolbar button not clickable,Reliability
+c13740722,Grid,Organization - Project Supplier Tracking,,AssertionError: actual report mismatch with expected report,Fault
+c20991204,Grid,Contract - Contract Status,Fails in Prod as well,StaleElementReferenceException: stale element not found in current frame,Reliability
+c8834972,Grid,Interface - Java Client,Passed Locally,UncheckedExecutionException: IOException stream closed,Reliability

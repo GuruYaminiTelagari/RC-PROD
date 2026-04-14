@@ -3,6 +3,27 @@ from pathlib import Path
 
 import joblib
 import pandas as pd
+from sklearn.base import BaseEstimator, TransformerMixin
+
+
+class TextJoiner(BaseEstimator, TransformerMixin):
+    """Compatibility shim for loading serialized pipelines."""
+
+    def __init__(self, columns: list[str]):
+        self.columns = columns
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X):
+        frame = X.copy()
+        for col in self.columns:
+            frame[col] = frame[col].fillna("").astype(str).str.strip().str.lower()
+
+        combined = frame[self.columns[0]]
+        for col in self.columns[1:]:
+            combined = combined + " [SEP] " + frame[col]
+        return combined
 
 
 def main() -> None:
