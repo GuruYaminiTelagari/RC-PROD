@@ -1,23 +1,23 @@
-Test Case Id,Test Case Type,Suite Name,Comments,Failure Exception
-c20256949,External,Reports - Reportage,,RuntimeException: multiselect options not clickable in report
-c60752,DTC,Internal - PDQBach,possible prod issue,AssertionError: EFT file does not contain expected content
-c2890078,DTC,Internal - FeeBill,prod failure,NoSuchElementException: Fees/Adjustments tab element not found
-c29882741,DTC,Organization - Textura Payment Accelerator (TPA),prod failure,RuntimeException: generate_all_receivable_reports did not complete
-c2889775,DTC,Internal - FeeBill,passed on dtc rerun,RuntimeException: Confirm button was not clickable
-c29996012,Grid,KITTEN Self-service document templates,,AssertionError: IDCS editor table not as expected after insert columns
-c30077268,Grid,Compliance - Lien Waiver,Fails in Proda as well,StaleElementReferenceException: stale element not found in current frame
-c29476725,Grid,Project - General,Passed locally,AssertionError: Last modified text in drawer is not as expected
-c29704023,Grid,Reports - Reportage,ICPM-72652,AssertionError: required report not present in reports list
-c30091059,Grid,Reports - Reportage,ICPM-72653,AssertionError: Last Run Date incorrect for duplicated report
-c30029784,Grid,Organization - Textura Payment Accelerator (TPA),ICPM-72586,AssertionError: Estimated Early Payment amount is incorrect
-c16740777,Grid,Draw - Track Draw Deadlines,passed locally,NoSuchElementException: generated report download button not found
-c29589755,Grid,KITTEN Self-service document templates,"passed locally, tar took too long to upload",NoSuchElementException: Assign To Org row/input not found
-c30093314,Grid,KITTEN Self-service document templates,"passed locally, tar took too long to upload",NoSuchElementException: Assign To Org row/input not found
-c29986466,Grid,DocuSign,due to change in editor while copying curated template,AssertionError: signed subs CLW content on final draw incorrect
-c29986480,Grid,DocuSign,due to change in editor while copying curated template,AssertionError: signed UCLW document content incorrect
-c29996019,Grid,KITTEN Self-service document templates,due to change in editor table,AssertionError: IDCS editor cells not displayed as expected
-c27276647,Grid,Documents,passed locally,AssertionError: unsigned document download text mismatch
-c29996024,Grid,KITTEN Self-service document templates,"passed locally, merging cells need more time",RuntimeException: merge cells toolbar button not clickable
-c13740722,Grid,Organization - Project Supplier Tracking,,AssertionError: actual report mismatch with expected report
-c20991204,Grid,Contract - Contract Status,Fails in Prod as well,StaleElementReferenceException: stale element not found in current frame
-c8834972,Grid,Interface - Java Client,Passed Locally,UncheckedExecutionException: IOException stream closed
+Suite Name,Comments,Failure Exception
+Reports - Reportage,,RuntimeException: multiselect options not clickable in report
+Internal - PDQBach,possible prod issue,AssertionError: EFT file does not contain expected content
+Internal - FeeBill,prod failure,NoSuchElementException: Fees/Adjustments tab element not found
+Organization - Textura Payment Accelerator (TPA),prod failure,RuntimeException: generate_all_receivable_reports did not complete
+Internal - FeeBill,passed on dtc rerun,RuntimeException: Confirm button was not clickable
+KITTEN Self-service document templates,,AssertionError: IDCS editor table not as expected after insert columns
+Compliance - Lien Waiver,Fails in Proda as well,StaleElementReferenceException: stale element not found in current frame
+Project - General,Passed locally,AssertionError: Last modified text in drawer is not as expected
+Reports - Reportage,ICPM-72652,AssertionError: required report not present in reports list
+Reports - Reportage,ICPM-72653,AssertionError: Last Run Date incorrect for duplicated report
+Organization - Textura Payment Accelerator (TPA),ICPM-72586,AssertionError: Estimated Early Payment amount is incorrect
+Draw - Track Draw Deadlines,passed locally,NoSuchElementException: generated report download button not found
+KITTEN Self-service document templates,"passed locally, tar took too long to upload",NoSuchElementException: Assign To Org row/input not found
+KITTEN Self-service document templates,"passed locally, tar took too long to upload",NoSuchElementException: Assign To Org row/input not found
+DocuSign,due to change in editor while copying curated template,AssertionError: signed subs CLW content on final draw incorrect
+DocuSign,due to change in editor while copying curated template,AssertionError: signed UCLW document content incorrect
+KITTEN Self-service document templates,due to change in editor table,AssertionError: IDCS editor cells not displayed as expected
+Documents,passed locally,AssertionError: unsigned document download text mismatch
+KITTEN Self-service document templates,"passed locally, merging cells need more time",RuntimeException: merge cells toolbar button not clickable
+Organization - Project Supplier Tracking,,AssertionError: actual report mismatch with expected report
+Contract - Contract Status,Fails in Prod as well,StaleElementReferenceException: stale element not found in current frame
+Interface - Java Client,Passed Locally,UncheckedExecutionException: IOException stream closed

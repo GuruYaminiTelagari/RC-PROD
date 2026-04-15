@@ -116,7 +116,6 @@ def main() -> None:
 
     target_col = "Review Status"
     required_features = [
-        "Test Case Type",
         "Suite Name",
         "Comments",
         "Failure Exception",
