@@ -2,34 +2,34 @@ Review Status Classification Report
 ========================================
 
 Input data: ml_classification_input_updated.csv
-Rows: 231
+Rows: 214
 Label distribution:
 Review Status
-Reliability          127
-Automation Update     45
+Reliability          113
+Automation Update     44
 Fault                 33
-Fixed                 26
+Fixed                 24
 
 Train/test split: 80/20 (stratified)
 Model selection: GridSearchCV with 5-fold StratifiedKFold
-Best CV weighted-F1: 0.9315
-Best params: {'classifier': LinearSVC(), 'tfidf__analyzer': 'word', 'tfidf__max_features': 4000, 'tfidf__min_df': 1, 'tfidf__ngram_range': (1, 3)}
-Holdout accuracy: 0.9149
+Best CV weighted-F1: 0.9099
+Best params: {'classifier': LinearSVC(C=2.0), 'tfidf__analyzer': 'word', 'tfidf__max_features': 4000, 'tfidf__min_df': 1, 'tfidf__ngram_range': (1, 2)}
+Holdout accuracy: 0.9302
 
 Confusion matrix (rows=true, cols=pred):
                    Automation Update  Fault  Fixed  Reliability
 Automation Update                  7      1      1            0
-Fault                              0      6      0            1
-Fixed                              0      0      5            0
-Reliability                        0      1      0           25
+Fault                              0      6      0            0
+Fixed                              0      0      4            1
+Reliability                        0      0      0           23
 
                    precision    recall  f1-score   support
 
 Automation Update     1.0000    0.7778    0.8750         9
-            Fault     0.7500    0.8571    0.8000         7
-            Fixed     0.8333    1.0000    0.9091         5
-      Reliability     0.9615    0.9615    0.9615        26
+            Fault     0.8571    1.0000    0.9231         6
+            Fixed     0.8000    0.8000    0.8000         5
+      Reliability     0.9583    1.0000    0.9787        23
 
-         accuracy                         0.9149        47
-        macro avg     0.8862    0.8991    0.8864        47
-     weighted avg     0.9238    0.9149    0.9153        47
+         accuracy                         0.9302        43
+        macro avg     0.9039    0.8944    0.8942        43
+     weighted avg     0.9345    0.9302    0.9285        43

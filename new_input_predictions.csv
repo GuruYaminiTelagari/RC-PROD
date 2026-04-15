@@ -1,5 +1,5 @@
 Test Case Id,Test Case Type,Suite Name,Comments,Failure Exception,Predicted Review Status
-c20256949,External,Reports - Reportage,,RuntimeException: multiselect options not clickable in report,Automation Update
+c20256949,External,Reports - Reportage,,RuntimeException: multiselect options not clickable in report,Fault
 c60752,DTC,Internal - PDQBach,possible prod issue,AssertionError: EFT file does not contain expected content,Reliability
 c2890078,DTC,Internal - FeeBill,prod failure,NoSuchElementException: Fees/Adjustments tab element not found,Reliability
 c29882741,DTC,Organization - Textura Payment Accelerator (TPA),prod failure,RuntimeException: generate_all_receivable_reports did not complete,Reliability

@@ -213,20 +213,3 @@ c2333847,Grid,Project - CPM Fee Sales Tax calculation (CPM-10077),Fault,,Asserti
 c7349969,Grid,Internal - Pronto Signature System (Rename?),Fault,,AssertionError: profile update status message incorrect
 c30095423,Grid,KITTEN Self-service document templates,Fixed,ICPM-72573,AssertionError: editor options combination not correctly applied
 c30095425,Grid,KITTEN Self-service document templates,Fixed,ICPM-72573,AssertionError: editor options combination not correctly applied
-c30091734,External,Organization - Textura Payment Accelerator (TPA),Automation Update,,AssertionError: TPA accelerated invoices message missing
-c8156048,DTC,Internal - FeeBill,Reliability,passed on dtc rerun,RuntimeException: Confirm button was not clickable
-c11925246,DTC,Internal - FeeBill,Reliability,passed on dtc rerun,NoSuchElementException: Accounts Receivables report download link not found
-c29437393,DTC,Interface - CSVus2,Reliability,passed on dtc rerun,AssertionError: Exported records page types not correct
-c29603047,DTC,Internal - FeeBill,Fixed,,AssertionError: TPA meterable report mismatch
-c29603049,DTC,Internal - FeeBill,Fixed,,AssertionError: TPA meterable report mismatch
-c2889831,DTC,Internal - FeeBill,Reliability,passed on dtc rerun,RuntimeException: Confirm button was not clickable
-c29988497,Grid,Reports - Reportage,Reliability,Passed locally,UncheckedExecutionException: IOException stream closed
-c29647310,Grid,Enterprise Disbursement Page,Reliability,Passed Locally,StaleElementReferenceException: stale element not found
-c30049539,Grid,Internal - FeeBill,Reliability,Fails in Prod as well,NoSuchElementException: project_name cell not found in fee bases table
-c7762444,Grid,Compliance - Legal Document,Reliability,Passed Locally,NoSuchElementException: xls output radio input not found
-c20256931,Grid,Organization - Manage Owner Funding,Reliability,Fails from Prod as well,RuntimeException: payment number cell not clickable
-c14288302,Grid,Administration - System (Rename: Account Setup),Reliability,Fails in Prod as well,AssertionError: SR drawer project default selection incorrect
-c29825771,Grid,Draw - Close Draw (move to Draw - Draw),Reliability,Passed locally,NoSuchElementException: rejectedInvoiceWarning not found
-c279039,Grid,Compliance - Legal Document,Reliability,Passed Locally,NoSuchElementException: report-name input not found
-c1713736,Grid,Interface - Standard Web Services,Reliability,Passed Locally,NoSuchElementException: report-name input not found
-c29437529,Grid,KITTEN Self-service document templates,Reliability,passed locally,AssertionError: document not saved with expected notary variables
